@@ -1,4 +1,4 @@
-package com.llib.cn.util;
+package com.llib.util;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

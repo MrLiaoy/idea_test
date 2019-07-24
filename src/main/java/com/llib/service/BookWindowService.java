@@ -1,8 +1,8 @@
-package com.llib.cn.service;
+package com.llib.service;
 
-import com.llib.cn.dao.BookDao;
-import com.llib.cn.daoImpl.BookDaoImpl;
-import com.llib.cn.pojo.Book;
+import com.llib.dao.BookDao;
+import com.llib.daoImpl.BookDaoImpl;
+import com.llib.pojo.Book;
 
 import java.util.ArrayList;
 import java.util.Scanner;

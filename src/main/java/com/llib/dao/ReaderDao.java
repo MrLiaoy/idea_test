@@ -1,6 +1,6 @@
-package com.llib.cn.dao;
+package com.llib.dao;
 
-import com.llib.cn.pojo.Reader;
+import com.llib.pojo.Reader;
 
 import java.util.ArrayList;
 

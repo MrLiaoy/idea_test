@@ -1,14 +1,14 @@
-package com.llib.cn.service;
+package com.llib.service;
 
-import com.llib.cn.dao.BookDao;
-import com.llib.cn.dao.ReaderDao;
-import com.llib.cn.dao.RecDao;
-import com.llib.cn.daoImpl.BookDaoImpl;
-import com.llib.cn.daoImpl.ReaderDaoImpl;
-import com.llib.cn.daoImpl.RecDaoImpl;
-import com.llib.cn.pojo.Book;
-import com.llib.cn.pojo.Reader;
-import com.llib.cn.pojo.Rec;
+import com.llib.dao.BookDao;
+import com.llib.dao.ReaderDao;
+import com.llib.dao.RecDao;
+import com.llib.daoImpl.BookDaoImpl;
+import com.llib.daoImpl.ReaderDaoImpl;
+import com.llib.daoImpl.RecDaoImpl;
+import com.llib.pojo.Book;
+import com.llib.pojo.Reader;
+import com.llib.pojo.Rec;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

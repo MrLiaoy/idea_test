@@ -1,8 +1,8 @@
-package com.llib.cn.daoImpl;
+package com.llib.daoImpl;
 
-import com.llib.cn.dao.BookDao;
-import com.llib.cn.pojo.Book;
-import com.llib.cn.util.ConnectUtil;
+import com.llib.dao.BookDao;
+import com.llib.pojo.Book;
+import com.llib.util.ConnectUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

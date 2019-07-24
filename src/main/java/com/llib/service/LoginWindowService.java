@@ -1,8 +1,8 @@
-package com.llib.cn.service;
+package com.llib.service;
 
-import com.llib.cn.dao.ReaderDao;
-import com.llib.cn.daoImpl.ReaderDaoImpl;
-import com.llib.cn.pojo.Reader;
+import com.llib.dao.ReaderDao;
+import com.llib.daoImpl.ReaderDaoImpl;
+import com.llib.pojo.Reader;
 
 import java.util.Scanner;
 

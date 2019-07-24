@@ -1,10 +1,10 @@
-package com.llib.cn.daoImpl;
+package com.llib.daoImpl;
 
-import com.llib.cn.dao.RecDao;
-import com.llib.cn.pojo.Book;
-import com.llib.cn.pojo.Reader;
-import com.llib.cn.pojo.Rec;
-import com.llib.cn.util.ConnectUtil;
+import com.llib.dao.RecDao;
+import com.llib.pojo.Book;
+import com.llib.pojo.Reader;
+import com.llib.pojo.Rec;
+import com.llib.util.ConnectUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

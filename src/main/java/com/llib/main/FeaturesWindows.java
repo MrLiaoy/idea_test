@@ -1,10 +1,10 @@
-package com.llib.cn.main;
+package com.llib.main;
 
-import com.llib.cn.pojo.Reader;
-import com.llib.cn.service.AdminWindowService;
-import com.llib.cn.service.BookWindowService;
-import com.llib.cn.service.LoginWindowService;
-import com.llib.cn.service.ReaderWindowService;
+import com.llib.pojo.Reader;
+import com.llib.service.AdminWindowService;
+import com.llib.service.BookWindowService;
+import com.llib.service.LoginWindowService;
+import com.llib.service.ReaderWindowService;
 
 import java.util.Scanner;
 

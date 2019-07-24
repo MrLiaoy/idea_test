@@ -1,8 +1,8 @@
-package com.llib.cn.dao;
+package com.llib.dao;
 
-import com.llib.cn.pojo.Book;
-import com.llib.cn.pojo.Reader;
-import com.llib.cn.pojo.Rec;
+import com.llib.pojo.Book;
+import com.llib.pojo.Reader;
+import com.llib.pojo.Rec;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
