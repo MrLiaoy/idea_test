@@ -110,7 +110,7 @@ public class BookDaoImpl implements BookDao {
         return null;
     }
 
-    public int obtainedBook(Book book) {
+    public void obtainedBook(Book book) {
         String sql = "update tb_book set Obtained=? WHERE isbn=?";
         PreparedStatement preparedStatement = null;
 
@@ -118,7 +118,7 @@ public class BookDaoImpl implements BookDao {
             preparedStatement = con.prepareStatement(sql);
             preparedStatement.setInt(1, book.getObtained());
             preparedStatement.setString(2, book.getIsbn());
-            return preparedStatement.executeUpdate();
+            preparedStatement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -130,7 +130,6 @@ public class BookDaoImpl implements BookDao {
         }
 
 
-        return 0;
     }
 
     public ArrayList<Book> queryByBookName(Book book) {

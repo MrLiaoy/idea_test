@@ -8,8 +8,8 @@ import com.llib.cn.service.ReaderWindowService;
 
 import java.util.Scanner;
 
-public class FeaturesWindows {
-    public FeaturesWindows() {
+class FeaturesWindows {
+    FeaturesWindows() {
         mainWindow();
     }
 

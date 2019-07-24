@@ -49,7 +49,7 @@ public class ReaderDaoImpl implements ReaderDao {
         return false;
     }
 
-    public int update(Reader reader) {
+    public void update(Reader reader) {
         String sql="update tb_reader SET rname= ?,gender=?,tel=? ,availble=? WHERE rid=?";
         int flag=0;
         PreparedStatement preparedStatement=null;
@@ -73,7 +73,6 @@ public class ReaderDaoImpl implements ReaderDao {
             }
         }
 
-        return  flag;
     }
 
     public ArrayList<Reader> queryAll() {
