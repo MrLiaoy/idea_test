@@ -9,11 +9,10 @@ import com.llib.service.ReaderWindowService;
 import java.util.Scanner;
 
 class FeaturesWindows {
-    FeaturesWindows() {
-        mainWindow();
+    private FeaturesWindows() {
     }
 
-    private void mainWindow() {
+    public static void mainWindow() {
         System.out.println("主页——————————————————————");
         System.out.println("1.管理图书");
         System.out.println("2.读者登录");
@@ -34,7 +33,7 @@ class FeaturesWindows {
 
     }
 
-    private void bookManageWindow() {
+    private static void bookManageWindow() {
         System.out.println("图书管理————————————————————");
         System.out.println("1.查看图书信息");
         System.out.println("2.添加新的图书");
@@ -68,7 +67,7 @@ class FeaturesWindows {
         }
     }
 
-    private void loginWindow() {
+    private static void loginWindow() {
         System.out.println("登录选择界面————————————————————");
         System.out.println("1.注册用户");
         System.out.println("2.用户登录");
@@ -101,7 +100,7 @@ class FeaturesWindows {
 
     }
 
-    private void readerWindow(Reader reader) {
+    private static void readerWindow(Reader reader) {
 //        System.out.println(reader.getRname()+"的主页————————————————————");
         System.out.println("0.进入图书查找页面");
         System.out.println("1.借阅图书");
@@ -149,7 +148,7 @@ class FeaturesWindows {
         }
     }
 
-    private void bookWindow(Reader reader) {
+    private static void bookWindow(Reader reader) {
         System.out.println("图书查询————————————————————");
         System.out.println("1.查看所有书籍");
         System.out.println("2.搜索书籍名字");
